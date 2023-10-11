@@ -15,14 +15,27 @@ import {
   git,
   figma,
   docker,
+  springboot,
+  java,
+  postman,
   meta,
   starbucks,
   tesla,
   shopify,
+  acmatek,
+  capgemini,
   carrent,
   jobit,
   tripguide,
   threejs,
+  eclipse,
+  swagger,
+  python,
+  intellij,
+  azure,
+  mysql,
+  pgsql,
+  ntfy
 } from "../assets";
 
 export const navLinks = [
@@ -46,7 +59,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Spring Boot Developer",
     icon: mobile,
   },
   {
@@ -54,117 +67,94 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Microsoft Azure",
     icon: creator,
   },
 ];
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
+    name: "Spring Boot",
+    icon: springboot,
   },
   {
-    name: "CSS 3",
-    icon: css,
+    name: "Java",
+    icon: java,
   },
   {
     name: "JavaScript",
     icon: javascript,
   },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+
   {
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
+
   {
     name: "docker",
     icon: docker,
+  },
+  {
+    name: "postman",
+    icon: postman,
+  },
+  {
+    name: "python",
+    icon: python,
+  },
+  {
+    name: "swagger",
+    icon: swagger,
+  },
+  {
+    name: "intellij",
+    icon: intellij,
+  },
+  {
+    name: "eclipse",
+    icon: eclipse,
+  },
+  {
+    name: "mysql",
+    icon: mysql,
+  },
+  {
+    name: "pgsql",
+    icon: pgsql,
+  },
+  {
+    name: "azure",
+    icon: azure,
   },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Software Engineer",
+    company_name: "Acmatek Inc",
+    icon: acmatek,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "September 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing and maintaining web applications using Spring Boot and other related technologies.",
+      "Collaborated with clients to understand their business requirements and translate them into technical solutions, ensuring client satisfaction and project success.",
+      "Collaborated with cross-functional teams to develop and maintain robust backend solutions using Java, Spring, and Hibernate frameworks.",
+      "Conducted thorough testing and debugging to identify and resolve issues, ensuring the delivery of high-quality code on time.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Software Engineer",
+    company_name: "Capgemini",
+    icon: capgemini,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "August 2021 - September 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing and maintaining web applications using Spring Boot and other related technologies.",
+      "Designed and implemented RESTful APIs for seamless integration with frontend systems, ensuring efficient data exchange and optimal performance.",
+      "Developed and optimized database structures using SQL, ensuring data integrity, scalability, and efficient querying.",
+      "Kept up to date with industry trends and advancements in backend technologies, applying them to enhance the development process and deliver innovative solutions.",
+      "Worked in Agile development environments, actively participating in scrum meetings, sprint planning, and providing accurate estimations for project timelines.",
     ],
   },
 ];
@@ -198,25 +188,25 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Ntfy Java",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "This is a Java package for publishing/receiving messages from a ntfy server. ntfy (pronounce: notify) is a simple HTTP-based pub-sub notification service. ntfy-java is a Java wrapper for this service.",
     tags: [
       {
-        name: "react",
+        name: "java",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "ntfy",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "maven",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: ntfy,
+    source_code_link: "https://github.com/MaheshBabu11/ntfy-java",
   },
   {
     name: "Job IT",
