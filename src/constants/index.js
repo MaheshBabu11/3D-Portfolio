@@ -35,7 +35,12 @@ import {
   azure,
   mysql,
   pgsql,
-  ntfy
+  ntfy,
+  springshell,
+  vika,
+  rcds,
+  sesphr,
+  excel,
 } from "../assets";
 
 export const navLinks = [
@@ -85,12 +90,10 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-
   {
     name: "git",
     icon: git,
   },
-
   {
     name: "docker",
     icon: docker,
@@ -162,27 +165,27 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "He is very passionate in the works that he is involved with. I really feel happy to have him in my network as he is really supportive and is a role model for everyone in this network.",
+    name: "Hari Priya",
+    designation: "Program Manager",
+    company: "TechTaliya Informatics (P) Ltd.",
+    image: "https://media.licdn.com/dms/image/D4D03AQEb0WIUkj_0pQ/profile-displayphoto-shrink_400_400/0/1680585528641?e=1702512000&v=beta&t=eWckH6FYIggF4_WJdD_krACHtiehxrUsPoIBb9Bxv8Q",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "He is a detail oriented, goal oriented, ambitious and powerful co-worker, his knowledge is vast and thorough. Whenever I had a problem, there has never been a time he has left me without a solution.",
+    name: "Advaith Narayan",
+    designation: "Cyber Security Engineer",
+    company: "UST",
+    image: "https://media.licdn.com/dms/image/D4D03AQEO303tJ3vkkg/profile-displayphoto-shrink_400_400/0/1696948876292?e=1702512000&v=beta&t=xQiwlp_zsZst9_LnKbV16ZtHma9cgKY6lwU2qq5wTuo",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "His drive to achieve perfection in his work has been a motivating factor for me throughout our journey in Capgemini.",
+    name: "Parakh Chowdhary",
+    designation: "Software Engineer",
+    company: "Capgemini",
+    image: "https://media.licdn.com/dms/image/D4D03AQGSA8XjXEWt9w/profile-displayphoto-shrink_100_100/0/1673440948202?e=1702512000&v=beta&t=cLg6rmKiFksvgB7m6GeDP0-XmrNUOYh1ydHxbncOMOU",
   },
 ];
 
@@ -209,46 +212,109 @@ const projects = [
     source_code_link: "https://github.com/MaheshBabu11/ntfy-java",
   },
   {
-    name: "Job IT",
+    name: "SpringShell",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A CLI application built using the spring shell. This application demonstrate how the spring ecosystem can be used to built CLI tools for a qide range of applications like Internal tools, custom installation etc.",
     tags: [
       {
-        name: "react",
+        name: "SpringShell",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Java",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "CLI",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
+    image: springshell,
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "VIKA",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "This is a virtual assistant that can detect depression using neural networks and help the user to overcome depression and stress. It is build using tensorflow, keras and nltk as the core libraries. ",
     tags: [
       {
-        name: "nextjs",
+        name: "tensorflow",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "python",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "sentiment_analysis",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: vika,
+    source_code_link: "https://github.com/MaheshBabu11/VIKA",
+  },
+  {
+    name: "Railway Track Crack Detection System",
+    description:
+      "This is an application that is used to identify cracks on railways tracks using images/videos. It uses CNN to identify the cracks and then sends a warning message using twilio to the authorities.Its powered by tensorflow and flask.",
+    tags: [
+      {
+        name: "tensorflow",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "python",
+        color: "green-text-gradient",
+      },
+      {
+        name: "flask",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: rcds,
+    source_code_link: "https://github.com/MaheshBabu11/Railway-Crack-Detection-System",
+  },
+  {
+    name: "Secure Health Record Management System",
+    description:
+      "This is an encrypted health record management system built using Flask and Mysql. It uses b64decode and b64encode to encrypt and decrypt the data.The encrypted data is stored in the database and can be accessed only by the user and the doctor.",
+    tags: [
+      {
+        name: "flask",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mysql",
+        color: "green-text-gradient",
+      },
+      {
+        name: "python",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: sesphr,
+    source_code_link: "https://github.com/MaheshBabu11/Sesphr",
+  },
+  {
+    name: "Excel2DataMap - Excel to HashMap Converter",
+    description:
+      "This is a java package that is used to convert Excel files from various formats like .xls,xls,csv to datamaps so that they can be directly used to insert data into database tables.It can be used to simplify the process of inserting data into database tables.",
+    tags: [
+      {
+        name: "java",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "maven",
+        color: "green-text-gradient",
+      },
+      {
+        name: "package",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: excel,
+    source_code_link: "https://github.com/MaheshBabu11/Excel2DataMap",
   },
 ];
 

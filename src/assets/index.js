@@ -42,6 +42,11 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import ntfy from "./ntfy.png"
+import springshell from "./springshell.png";
+import vika from "./vika.jpg";
+import rcds from "./rcds.jpg";
+import sesphr from "./sesphr.png";
+import excel from "./excel.jpg";
 
 export {
   logo,
@@ -85,4 +90,9 @@ export {
   mysql,
   pgsql,
   ntfy,
+  springshell,
+  vika,
+  rcds,
+  sesphr,
+  excel,
 };
