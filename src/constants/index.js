@@ -169,7 +169,7 @@ const testimonials = [
     name: "Hari Priya",
     designation: "Program Manager",
     company: "TechTaliya Informatics (P) Ltd.",
-    image: "https://media.licdn.com/dms/image/D4D03AQEb0WIUkj_0pQ/profile-displayphoto-shrink_400_400/0/1680585528641?e=1702512000&v=beta&t=eWckH6FYIggF4_WJdD_krACHtiehxrUsPoIBb9Bxv8Q",
+    image: "./src/assets/reference/priya.jpg",
   },
   {
     testimonial:
@@ -177,7 +177,7 @@ const testimonials = [
     name: "Advaith Narayan",
     designation: "Cyber Security Engineer",
     company: "UST",
-    image: "https://media.licdn.com/dms/image/D4D03AQEO303tJ3vkkg/profile-displayphoto-shrink_400_400/0/1696948876292?e=1702512000&v=beta&t=xQiwlp_zsZst9_LnKbV16ZtHma9cgKY6lwU2qq5wTuo",
+    image: "./src/assets/reference/advaith.jpg",
   },
   {
     testimonial:
@@ -185,7 +185,7 @@ const testimonials = [
     name: "Parakh Chowdhary",
     designation: "Software Engineer",
     company: "Capgemini",
-    image: "https://media.licdn.com/dms/image/D4D03AQGSA8XjXEWt9w/profile-displayphoto-shrink_100_100/0/1673440948202?e=1702512000&v=beta&t=cLg6rmKiFksvgB7m6GeDP0-XmrNUOYh1ydHxbncOMOU",
+    image: "./src/assets/reference/parakh.jpg",
   },
 ];
 
