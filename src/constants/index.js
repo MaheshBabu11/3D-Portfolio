@@ -41,6 +41,9 @@ import {
   rcds,
   sesphr,
   excel,
+  advaith,
+  parakh,
+  priya,
 } from "../assets";
 
 export const navLinks = [
@@ -169,7 +172,7 @@ const testimonials = [
     name: "Hari Priya",
     designation: "Program Manager",
     company: "TechTaliya Informatics (P) Ltd.",
-    image: "./src/assets/reference/priya.jpg",
+    image: priya,
   },
   {
     testimonial:
@@ -177,7 +180,7 @@ const testimonials = [
     name: "Advaith Narayan",
     designation: "Cyber Security Engineer",
     company: "UST",
-    image: "./src/assets/reference/advaith.jpg",
+    image: advaith,
   },
   {
     testimonial:
@@ -185,7 +188,7 @@ const testimonials = [
     name: "Parakh Chowdhary",
     designation: "Software Engineer",
     company: "Capgemini",
-    image: "./src/assets/reference/parakh.jpg",
+    image: parakh,
   },
 ];
 

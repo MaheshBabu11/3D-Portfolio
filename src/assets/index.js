@@ -48,6 +48,10 @@ import rcds from "./rcds.jpg";
 import sesphr from "./sesphr.png";
 import excel from "./excel.jpg";
 
+import advaith from "./reference/advaith.jpg";
+import priya from "./reference/priya.jpg";
+import parakh from "./reference/parakh.jpg";
+
 export {
   logo,
   backend,
@@ -95,4 +99,7 @@ export {
   rcds,
   sesphr,
   excel,
+  advaith,
+  parakh,
+  priya,
 };
