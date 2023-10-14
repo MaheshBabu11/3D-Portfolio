@@ -17,4 +17,6 @@ jobs:
         uses: actions/checkout@v2
       - name: Image Optimizer
         uses: crush-pics/crush-pics-github-action@v1.0
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
             
