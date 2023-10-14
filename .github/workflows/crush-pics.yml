@@ -8,6 +8,7 @@ on:
       - '**.jpeg'
       - '**.png'
       - '**.gif'
+  workflow_dispatch:
 jobs:
   crush:
     runs-on: ubuntu-latest
