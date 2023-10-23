@@ -1,9 +1,6 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import { VitePWA } from "vite-plugin-pwa";
-import { logo } from "./src/assets/logo.svg";
-import {pwa512} from "./pwa-512x512.png";
-import {pwa192} from "./pwa-192x192.png";
 
 export default defineConfig({
   plugins: [
@@ -16,7 +13,7 @@ export default defineConfig({
       devOptions: {
         enabled: true,
       },
-      includeAssets: [logo, pwa192, pwa512],
+      includeAssets: ['./src/assetc/logo.svg', 'pwa-192x192.png', 'pwa-512x512.png'],
       manifest: {
         name: '3-D Portfolio',
         short_name: '3-D Portfolio',
@@ -24,23 +21,23 @@ export default defineConfig({
         theme_color: '#ffffff',
         icons: [
           {
-            src: pwa192,
+            src: 'pwa-192x192.png',
             sizes: '192x192',
             type: 'image/png'
           },
           {
-            src: pwa512,
+            src: 'pwa-512x512.png',
             sizes: '512x512',
             type: 'image/png'
           },
           {
-            src: pwa192,
+            src: 'pwa-512x512.png',
             sizes: '512x512',
             type: 'image/png',
             purpose: 'any'
           },
           {
-            src: pwa512,
+            src: 'pwa-512x512.png',
             sizes: '512x512',
             type: 'image/png',
             purpose: 'maskable'
