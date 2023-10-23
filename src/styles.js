@@ -1,9 +1,3 @@
-
-import pwa192 from './assets/pwa-192x192.png'
-import pwa512 from './assets/pwa-512x512.png'
-
-document.getElementById('pwa-192').src = pwa192;
-document.getElementById('pwa-512').src = pwa512;
 const styles = {
   paddingX: "sm:px-16 px-6",
   paddingY: "sm:py-16 py-6",
