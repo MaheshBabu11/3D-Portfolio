@@ -4,8 +4,6 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei/native";
 
 import CanvasLoader from "../Loader";
 
-import { getSharedGL } from "../../../WebGLContextManager";
-
 
 const Computers = ({ isMobile }) => {
    const computer = useGLTF("./desktop_pc/scene.glb");
