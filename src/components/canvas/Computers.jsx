@@ -1,13 +1,15 @@
 import React, { Suspense, useEffect, useState } from "react";
-import { Canvas, useLoader } from "@react-three/fiber";
+import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei/native";
-import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader';
 
 import CanvasLoader from "../Loader";
+
+import { getSharedGL } from "../../../WebGLContextManager";
 
 
 const Computers = ({ isMobile }) => {
    const computer = useGLTF("./desktop_pc/scene.glb");
+   
 
   return (
     <mesh>
@@ -61,7 +63,6 @@ const ComputersCanvas = () => {
       shadows
       dpr={[1, 2]}
       camera={{ position: [20, 3, 5], fov: 25 }}
-      gl={{ preserveDrawingBuffer: true ,alpha: true}}
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls
