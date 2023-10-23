@@ -1,1 +1,0 @@
-if('serviceWorker' in navigator) navigator.serviceWorker.register('/3D-Portfolio/dev-sw.js?dev-sw', { scope: '/3D-Portfolio/', type: 'classic' })
