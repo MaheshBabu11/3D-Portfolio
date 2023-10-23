@@ -13,7 +13,7 @@ export default defineConfig({
       devOptions: {
         enabled: true,
       },
-      includeAssets: ['./src/assetc/logo.svg', 'pwa-192x192.png', 'pwa-512x512.png'],
+      includeAssets: ['./src/assetc/logo.svg', './src/assets/pwa-192x192.png', './src/assets/pwa-512x512.png'],
       manifest: {
         name: '3-D Portfolio',
         short_name: '3-D Portfolio',
@@ -21,23 +21,23 @@ export default defineConfig({
         theme_color: '#ffffff',
         icons: [
           {
-            src: 'pwa-192x192.png',
+            src: './src/assets/pwa-192x192.png',
             sizes: '192x192',
             type: 'image/png'
           },
           {
-            src: 'pwa-512x512.png',
+            src: './src/assets/pwa-512x512.png',
             sizes: '512x512',
             type: 'image/png'
           },
           {
-            src: 'pwa-512x512.png',
+            src: './src/assets/pwa-512x512.png',
             sizes: '512x512',
             type: 'image/png',
             purpose: 'any'
           },
           {
-            src: 'pwa-512x512.png',
+            src: './src/assets/pwa-512x512.png',
             sizes: '512x512',
             type: 'image/png',
             purpose: 'maskable'
