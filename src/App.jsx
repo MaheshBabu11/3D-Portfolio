@@ -17,7 +17,7 @@ const App = () => {
           <Experience />
         </LazyLoadComponent>
         <LazyLoadComponent>
-          <Tech />
+          {/* <Tech /> */}
         </LazyLoadComponent>
         <LazyLoadComponent>
           <Works />
